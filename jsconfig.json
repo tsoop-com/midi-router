@@ -1,0 +1,29 @@
+{
+	"vueCompilerOptions": {
+		"plugins": [
+			"@volar/vue-language-plugin-pug"
+		]
+	},
+	"compilerOptions": {
+		"target": "ES2020",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"declarationMap": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"baseUrl": "./"
+	},
+	"include": [
+		"src"
+	]
+}
